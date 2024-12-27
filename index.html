@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cal{
+            background-color: gray;
+            
+            padding: 10px;
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+            gap: 15px;
+            justify-content: center;
+            text-shadow: 1px 1px red;
+        color: antiquewhite;
+        text-align:center;
+        
+
+        }
+        
+        .c1{
+            grid-column: 1/5;
+            grid-row: 1/7;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 40px;
+            display: flex;
+            justify-content: center;
+           
+            
+            
+        }
+        .c2,.c6,.c10,.c14,.c18{
+            grid-column: 1/2;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 40px;
+            box-shadow: 5px 10px rgb(90, 88, 88);
+        }
+        .c3,.c7,.c11,.c15,.c19{
+            grid-column: 2/3;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 40px;
+            box-shadow: 5px 10px rgb(90, 88, 88);
+        }
+        .c4,.c8,.c12,.c16,.c20{
+            grid-column: 3/4;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 40px;
+            box-shadow: 5px 10px rgb(90, 88, 88);
+        }
+        .c5,.c9,.c13,.c17,.c21{
+            grid-column: 4/5;
+            background-color: black;
+            border: 2px solid black;
+            border-radius: 40px;
+            box-shadow: 5px 10px rgb(90, 88, 88);
+        }
+        .cal div:hover{
+            border: 3px solid orange;
+            color: aq;
+        }
+        .h1{
+            border: 3px solid black;
+            text-align: center;
+            font-style: italic;
+            font-size: 50px;
+          
+        text-shadow: 1px 1px red;
+       background-color: gray;
+       
+        }
+        .main{
+            border: 3px solid black;
+            padding: 10px;
+            background-color: black;
+            border-radius: 20px;
+            width: 500px;
+            display: grid;
+        }
+    </style>
+</head>
+<body><div class="main"><div class="h1"><h1>Ui Calculator</h1></div>
+    <div class="cal">
+        <div class="c1"><h1>48+64-78^8</h1></div>
+        <div class="c2">AC</div>
+        <div class="c3"><svg width="34px" height="34px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#db1414" stroke-width="0.45600000000000007"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7.50006 5.5L4.05262 10.7909C3.71387 11.3107 3.69732 11.9772 4.00984 12.5133L7.50006 18.5H18.8588C19.7651 18.5 20.4999 17.7653 20.4999 16.8589V7.14109C20.4999 6.23474 19.7651 5.5 18.8588 5.5H7.50006Z" stroke="#f2f2f2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M10 8.5L17 15.5" stroke="#f2f2f2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M10 15.5L16.9303 8.49996" stroke="#f2f2f2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></div>
+        <div class="c4">+/-</div>
+        <div class="c5" >÷</div>
+        <div class="c6">7</div>
+        <div class="c7">8</div>
+        <div class="c8">9</div>
+        <div class="c9">*</div>
+        <div class="c10">4</div>
+        <div class="c11">5</div>
+        <div class="c12">6</div>
+        <div class="c13">-</div>
+        <div class="c14">1</div>
+        <div class="c15">2</div>
+        <div class="c16">3</div>
+        <div class="c17">+</div>
+        <div class="c18">%</div>
+        <div class="c19">0</div>
+        <div class="c20">.</div>
+        <div class="c21">=</div>
+    </div>
+</div>
+</body>
+</html>
